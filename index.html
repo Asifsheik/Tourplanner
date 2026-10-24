@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Tourplanner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header section -->
+    <header>
+        <div class="logo">
+            <span><img src="tp.jpg" width="70px" height="50px"></span> 
+            <p>Tourplanner</p>
+        </div>
+
+        <div class="header__search">
+            <input type="text" placeholder="Search destination,hotels,Flights....">
+
+        </div>
+        <!-- navigation bar -->
+        <nav>
+            <ul>
+                <li><a href="#">Hotels </a></li>
+                <li><a href="#">Flights </a></li>
+                <li><a href="#">Restaurants </a></li>  
+                <li><a href="#">Experience </a></li>
+            
+            </ul>
+        </nav>
+    </header>
+    <!-- Search engine Section -->
+    <section class="search">
+        <div class="search_box">
+        <div class="search__card">
+            <h2>Find your next adventure</h2>
+            <p>Discover amazing places and unforgettable experiences.</p>
+        </div>
+        <div class="search__row">
+            <div class="search__field">
+                <label>Destination</label>
+                <input type="text" placeholder="Where to?">
+            </div>
+            <div class="search__field">
+                <label>Check-in</label>
+                <input type="date" placeholder="Oct 22, 2026">
+            </div>
+            <div class="search__field">
+                <label>Check-out</label>
+                <input type="date" placeholder="Oct 23, 2026">
+            </div>
+        </div>
+        <div class="filters">
+            <div class="filter__price-range">
+                <label>Price Range Rs.15000 to Rs.95000</label>
+                <input type="range" min="2500" max="4500" value="3500">
+            </div>
+            <button class="search-btn">Search</button>
+        </div>
+        </div>
+    </section>
+    <main>
+        <section class="section__destination">
+            <div class="section__header">
+                <h2>Featured Destinations</h2>
+                <a href="#">View all destinations </a>
+            </div>
+            <div class="section__cards">
+                <article class="card">
+                    <img src="paris.jpg">
+                    <div class="card__body">
+                        <span class="card__tag">Romantic</span>
+                        <h3>Paris</h3>
+                        <p>City of light, art, and timeless romance.</p>
+                        <div class="card__rating">
+                            <span class="rating">★ 4.6</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="china.jpg">
+                    <div class="card__body">
+                        <span class="card__tag">Cultural</span>
+                        <h3>Kyoto</h3>
+                        <p>Ancient temples and rich traditions.</p>
+                        <div class="card__rating">
+                            <span class="rating">★ 3.8</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="sen.jpg">
+                    <div class="card__body">
+                        <span class="card__tag">Scenic</span>
+                        <h3>Santorini</h3>
+                        <p>Stunning sunsets, and crystal waters.</p>
+                        <div class="card__rating">
+                            <div class="rating">★ 4.8</div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- Popular hotels -->
+        <section class="section__hotels">
+            <div class="section__header">
+                <h2>Popular Hotels</h2>
+                <a href="#hotels">View all hotels </a>
+            </div>
+            <div class="section__cards">
+                <article class="card">
+                    <img src="taj1.jpg"
+                        alt="Taj hotel">
+                    <div class="card__body">
+                        <h3>Taj Connemara</h3>
+                        <p>Paris, France</p>
+                        <div class="card__rating">
+                            <span class="rating">★ 4.1</span>
+                        </div>
+                        <p>From Rs.55000 / night</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="taj2.jpg"
+                        alt="Taj hotel">
+                    <div class="card__body">
+                        <h3>Taj Connemara</h3>
+                        <p>Anna nagar, Chennai</p>
+                        <div class="card__rating">
+                            <span class="rating">★ 4.2</span>
+                        </div>
+                        <p>From Rs.99000 / night</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="taj3.jpg"
+                        alt="Taj hotel">
+                    <div class="card__body">
+                        <h3>Taj Fisherman hotel</h3>
+                        <p>Kovalam , Chennai</p>
+                        <div class="card__rating">
+                            <span class="rating">★ 4.6</span>
+                        </div>
+                        <p>From Rs.40000 / night</p>
+                    </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="section_flights">
+            <div class="section__header">
+                <h2>Top-Rated flights</h2>
+                <a href="#flights">View all Flights</a>
+            </div>
+            <div class="section__cards">
+                <article class="card">
+                    <img src="aircanada.jpg" alt="Air_canada">
+                    <div class="card__body">
+                        <h3>Air Canada Airlines</h3>
+                        <p>India -> Canada</p>
+                        <div class="card__rating">
+                            <span class="rating">★ 4.6</span>
+                        </div>
+                        <p style="margin-top:0.5rem; font-size:0.85rem;">Starts from Rs.65000</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="indigo.jpg" alt="Indigo">
+                    <div class="card__body">
+                        <h3>Indigo Airlines</h3>
+                        <p>India -> Saudi Arabia</p>
+                        <div class="card__rating">
+                            <span class="rating">★ 4.8</span>
+                        </div>
+                        <p>Starts from Rs.45000</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="airindia.jpg" alt="Air India">
+                    <div class="card__body">
+                        <h3>Air India Airlines</h3>
+                        <p>India -> Singapore</p>
+                        <div class="card__rating">
+                            <span class="rating">★ 4.6</span>
+                        </div>
+                        <p>Starts from Rs.65000</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="footer__section">
+            <div class="footer__links">
+                <div class="footer__brand">
+                    
+                <div class="logo"><img src="tp.jpg" width="70px" height="50px">  Tourplanner </div>
+                <p>Inspiring journeys. Creating memories.</p>
+            </div>
+                <div class="footer__col">
+                    <h4>Company</h4>
+                    <a href="#">About Us</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Press</a>
+                </div>
+                <div class="footer__col">
+                    <h4>Support</h4>
+                    <a href="#">Help Center</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+                <div class="footer__col">
+                    <h4>Legal</h4>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            © 2026 Tourplanner. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+
+</html>
