@@ -3,7 +3,7 @@
 
 ## 📌 Project Description
 
-This project involves designing and developing a modern, responsive travel website homepage using **HTML and CSS**. The website features an original travel brand with an attractive layout that helps users explore popular destinations, discover hotels, find top-rated restaurants, and search for travel experiences.
+This project -https://asifsheik.github.io/Tourplanner involves designing and developing a modern, responsive travel website homepage using **HTML and CSS**. The website features an original travel brand with an attractive layout that helps users explore popular destinations, discover hotels, find top-rated restaurants, and search for travel experiences.
 
 The main goal of this project is to create a visually appealing and user-friendly interface while practicing essential web development skills, including page structure, styling, responsive design, and layout techniques.
 
